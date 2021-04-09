@@ -1,0 +1,52 @@
+.Board {
+  border: 2px solid #004d6b;
+  display: inline-block;
+  background-color: #00115e;
+}
+
+.Row {
+  height: 50px;
+}
+
+.Cell {
+  width: 50px;
+  height: 50px;
+  outline: 1px solid rgb(255, 255, 255);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.Snake {
+  background-color: #814500;
+}
+
+.Food {
+  background-color: #9c01bb;
+}
+
+.FoodReverse {
+  background-color: #19ff11dd;
+}
+
+.ButtonBox {
+  margin-bottom: 1rem;
+}
+
+.Button {
+  outline: none;
+  font: inherit;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1.3rem;
+  display: inline-block;
+  position: relative;
+}
+
+.Score {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
